@@ -2,5 +2,5 @@
 fn main() {
 
    
-    println!("Hello World!");
+    println!("<html><body bgcolor='blue'>Hello, world</body><html>");
 }
