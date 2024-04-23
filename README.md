@@ -1,2 +1,3 @@
-# Cgi.rust
-Rust server cgi
+# gdb.debug
+
+learn to debug you program easy
