@@ -1,12 +1,9 @@
 import re
-s="""hello
-world
-hi
-there
+s="""hello,world,hi,there;
 """
 def processos(expressao):
     # Dividir a expressão em tokens
-    tokens = re.findall(r'([a-zA-Z0-9\.]+)\n', expressao)
+    tokens = re.findall(r'([a-zA-Z0-9*]+),*', expressao)
 
     
     for token in tokens:
