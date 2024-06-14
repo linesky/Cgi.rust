@@ -6,7 +6,7 @@ there
 """
 def processos(expressao):
     # Dividir a expressão em tokens
-    tokens = re.findall(r'([a-z\.]+)\n', expressao)
+    tokens = re.findall(r'([a-zA-Z1-9\.]+)\n', expressao)
 
     
     for token in tokens:
