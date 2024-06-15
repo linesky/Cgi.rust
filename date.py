@@ -2,8 +2,8 @@ import re
 s='2024-10-05'
 def processos(expressao):
     # Dividir a expressão em tokens
-    regExp= r'([\d]+)\\*/*-*\.*'
-    tokens = re.findall(regExp,expressao)
+    regExp= r'[\\/\-\.]+'
+    tokens = re.split(regExp,expressao)
     for n in tokens:
         print(n)
     
