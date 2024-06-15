@@ -3,7 +3,7 @@ s="""hello,world,hi,there;
 """
 def processos(expressao):
     # Dividir a expressão em tokens
-    tokens = re.findall(r'([a-zA-Z0-9*]+),*', expressao)
+    tokens = re.split(r'[,\s]+', expressao)
 
     
     for token in tokens:
